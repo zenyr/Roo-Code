@@ -117,7 +117,7 @@ export const MarketplaceItemCard: React.FC<MarketplaceItemCardProps> = ({ item, 
 					<div className="relative flex gap-1 my-2 overflow-x-auto scrollbar-hide">
 						{/* Installation status badge on the left */}
 						{isInstalled && (
-							<span className="text-xs px-2 py-0.5 rounded-sm h-5 flex items-center bg-green-600/20 text-green-400 border border-green-600/30">
+							<span className="text-xs px-2 py-0.5 rounded-sm h-5 flex items-center bg-green-600/20 text-green-400 border border-green-600/30 shrink-0">
 								{t("marketplace:items.card.installed")}
 							</span>
 						)}
